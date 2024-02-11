@@ -1,0 +1,19 @@
+.bg-gray-50 {
+    --bg-opacity: 1;
+    background-color: #f3f4f6;
+    background-color: rgba(243, 244, 246, var(--bg-opacity));
+  }
+  
+  .dark\:bg-gray-900 {
+    --bg-opacity: 1;
+    background-color: #1a2027;
+    background-color: rgba(26, 32, 39, var(--bg-opacity));
+  }
+  
+  /* ... */
+  
+  .dark\:text-gray-400 {
+    --text-opacity: 1;
+    color: #cbd5e0;
+    color: rgba(203, 213, 224, var(--text-opacity));
+  }
